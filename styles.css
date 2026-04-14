@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 340px;
+  padding: 12px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#apiKeySection {
+  margin-bottom: 12px;
+}
+
+label {
+  font-size: 13px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.key-row {
+  display: flex;
+  gap: 6px;
+}
+
+#apiKeyInput {
+  flex: 1;
+  padding: 6px;
+  font-size: 12px;
+}
+
+#saveKey {
+  width: auto;
+  padding: 6px 12px;
+  margin-bottom: 0;
+}
+
+#keyStatus {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+#output {
+  font-size: 13px;
+  white-space: pre-wrap;
+}

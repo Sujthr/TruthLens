@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TruthLens</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>TruthLens</h2>
+
+  <div id="apiKeySection">
+    <label for="apiKeyInput">Gemini API Key:</label>
+    <div class="key-row">
+      <input type="password" id="apiKeyInput" placeholder="Enter your Gemini API key" />
+      <button id="saveKey">Save</button>
+    </div>
+    <div id="keyStatus"></div>
+  </div>
+
+  <button id="analyze">Analyze Article</button>
+
+  <div id="output"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
